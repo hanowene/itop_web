@@ -1,14 +1,14 @@
 {
   "/_not-found": "app/_not-found.js",
-  "/culture/page": "app/culture/page.js",
   "/about-us/page": "app/about-us/page.js",
+  "/geography/page": "app/geography/page.js",
+  "/culture/page": "app/culture/page.js",
   "/not_found/page": "app/not_found/page.js",
-  "/page": "app/page.js",
-  "/house/page": "app/house/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/page": "app/page.js",
   "/playground/page": "app/playground/page.js",
   "/test/page": "app/test/page.js",
+  "/house/page": "app/house/page.js",
   "/tradition/page": "app/tradition/page.js",
-  "/geography/page": "app/geography/page.js",
   "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js"
 }
