@@ -29,6 +29,8 @@ const withNextIntl = createNextIntlPlugin(
   );
  
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  distDir: 'build',
+};
  
 module.exports = withNextIntl(nextConfig);

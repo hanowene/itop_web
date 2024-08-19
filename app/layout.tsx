@@ -16,9 +16,10 @@ import { AppProps } from 'next/app';
 import {NextIntlClientProvider} from 'next-intl';
 import { getMessages, getLocale } from 'next-intl/server';
 import { Provider } from 'react-redux';
-import { store } from "./redux/state/store"
+// import { store } from "./redux/state/store"
 // import { createContext } from 'react';
 // import ThemeProvider from './providers';
+// import ThemeProvider from './redux/providers';
 
 //  createContext is not supported in Server Components
 // export const ThemeContext = createContext({});
@@ -44,13 +45,15 @@ async function RootLayout({
         <link rel="shortcut icon" href = "./assets/logo/beth-logo.png" />
       </Head> */}
       <body className="flex flex-col h-screen justify-between">
-        <NextIntlClientProvider messages={messages} >
-            <Suspense>
-              <Nav />
-            </Suspense>
-            {children}
-            <FooterHome></FooterHome>
-        </NextIntlClientProvider>
+        {/* <Provider store={store}> */}
+          <NextIntlClientProvider messages={messages} >
+              <Suspense>
+                <Nav />
+              </Suspense>
+              {children}
+              <FooterHome></FooterHome>
+          </NextIntlClientProvider>
+        {/* </Provider> */}
       </body>
     </html>
   );

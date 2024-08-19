@@ -1,4 +1,4 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice, configureStore } from "@reduxjs/toolkit";
 
 interface ChangeLanguage {
     language: string;
@@ -18,6 +18,20 @@ const changeLanguage = createSlice({
         }
     }   
 })
+
+export const makeStore = () => {
+    return configureStore({
+        reducer: {
+            
+        }
+    })
+}
+
+// Infer the type of makeStore
+export type AppStore = ReturnType<typeof makeStore>
+// Infer the `RootState` and `AppDispatch` types from the store itself
+export type RootState = ReturnType<AppStore['getState']>
+export type AppDispatch = AppStore['dispatch']
 
 export const { updateLanguage } = changeLanguage.actions;
 export default changeLanguage.reducer;

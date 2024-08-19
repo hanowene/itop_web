@@ -6,7 +6,9 @@ export default function HomePage() {
   const t = useTranslations();
   return (
     <div>
-        <a className='text-center'>{t('Geography')}</a>
+        <div className='text-center m-2'>
+            <a>{t('Geography')}</a>
+        </div>
         <div className=''>
             <Image
                 className=""
