@@ -119,6 +119,46 @@ const resources = [
   },
 ]
 
+const cultures = [
+  {
+    id: 0,
+    name: "House",
+    href: '/culture/house',
+  },
+  {
+    id: 1,
+    name: "Tools",
+    href: '/culture/tools',
+  },
+  {
+    id: 2,
+    name: "Traditional Clothes",
+    href: '/culture/clothes',
+  },
+  {
+    id: 3,
+    name: "Craft",
+    href: '/culture/craft',
+  },
+]
+
+const traditions = [
+  {
+    id: 0,
+    name: "Tradition",
+    href: '/tradition/tradition',
+  },
+  {
+    id: 1,
+    name: "Holiday",
+    href: '/tradition/holiday',
+  },
+  {
+    id: 2,
+    name: "Tribe",
+    href: '/tradition/tribe',
+  },
+]
 
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(' ');
@@ -154,9 +194,6 @@ export default function Navbar({ user }: { user: any }) {
                         Identitas Orang Papua
                   </Link>
                 </Text>
-                {/* <Text className="sm:-my-px sm:ml-6 sm:flex sm:space-x-8">
-                  <a href="/" className='m-auto text-xl pt-4 pb-2 '>{t('Home')}</a>
-                </Text> */}
                 <Text className="sm:-my-px sm:ml-6 sm:flex sm:space-x-8">
                   <Link href="/geography" className='text-center m-auto text-xl pt-4 pb-2 '>
                       {/* <a className='text-center m-auto text-xl pt-4 pb-2 '> */}
@@ -164,20 +201,70 @@ export default function Navbar({ user }: { user: any }) {
                         {/* </a> */}
                   </Link>
                 </Text>
-                <Text className="sm:-my-px sm:ml-6 sm:flex sm:space-x-8">
-                  <Link href="/tradition" className='text-center m-auto text-xl pt-4 pb-2 '>
-                      {/* <a className='text-center m-auto text-xl pt-4 pb-2 '> */}
-                        {t('Tradition')}
-                        {/* </a> */}
-                  </Link>
-                </Text>
-                <Text className="sm:-my-px sm:ml-6 sm:flex sm:space-x-8">
-                  <Link href="/culture" className='text-center m-auto text-xl pt-4 pb-2 '>
-                      {/* <a className='text-center m-auto text-xl pt-4 pb-2 '> */}
-                        {t('Culture')}
-                        {/* </a> */}
-                  </Link>
-                </Text>
+                <div className=' grid content-center '>
+                  <Dropdown className='bg-slate-300 rounded'>
+                    <DropdownTrigger>
+                      <Button 
+                        variant="bordered" 
+                      >
+                        <Text className="sm:-my-px sm:ml-6 sm:flex sm:space-x-8">
+                          <Link href="/tradition" className='text-center m-auto text-xl pt-4 pb-2 '>
+                            {/* <a className='text-center m-auto text-xl pt-4 pb-2 '> */}
+                            {t('Culture')}
+                            {/* </a> */}
+                          </Link>
+                        </Text>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4">
+                          <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                        </svg>
+                      </Button>
+                    </DropdownTrigger>
+                    <DropdownMenu aria-label="Dynamic Actions" items={cultures}>
+                      {(item) => (
+                        <DropdownItem
+                          key={item.id}
+                          // color={item.key === "delete" ? "danger" : "default"}
+                          // className={item.key === "delete" ? "text-danger" : ""}
+                          href={item.href}
+                        >
+                          {t(item.name)}
+                        </DropdownItem>
+                      )}
+                    </DropdownMenu>
+                  </Dropdown>
+                </div>
+                <div className=' grid content-center '>
+                  <Dropdown className='bg-slate-300 rounded'>
+                    <DropdownTrigger>
+                      <Button 
+                        variant="bordered" 
+                      >
+                        <Text className="sm:-my-px sm:ml-6 sm:flex sm:space-x-8">
+                          <Link href="/tradition" className='text-center m-auto text-xl pt-4 pb-2 '>
+                            {/* <a className='text-center m-auto text-xl pt-4 pb-2 '> */}
+                            {t('Tradition')}
+                            {/* </a> */}
+                          </Link>
+                        </Text>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-4">
+                          <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                        </svg>
+                      </Button>
+                    </DropdownTrigger>
+                    <DropdownMenu aria-label="Dynamic Actions" items={traditions}>
+                      {(item) => (
+                        <DropdownItem
+                          key={item.id}
+                          // color={item.key === "delete" ? "danger" : "default"}
+                          // className={item.key === "delete" ? "text-danger" : ""}
+                          href={item.href}
+                        >
+                          {t(item.name)}
+                        </DropdownItem>
+                      )}
+                    </DropdownMenu>
+                  </Dropdown>
+                </div>
                 <Text className="sm:-my-px sm:ml-6 sm:flex sm:space-x-8">
                   <Link href="/about-us" className='text-center m-auto text-xl pt-4 pb-2 '>
                       {/* <a className='text-center m-auto text-xl pt-4 pb-2 '> */}

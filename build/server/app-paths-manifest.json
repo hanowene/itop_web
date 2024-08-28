@@ -1,14 +1,9 @@
 {
-  "/_not-found": "app/_not-found.js",
-  "/culture/page": "app/culture/page.js",
+  "/culture/house/page": "app/culture/house/page.js",
+  "/culture/tools/page": "app/culture/tools/page.js",
+  "/culture/clothes/page": "app/culture/clothes/page.js",
+  "/culture/craft/page": "app/culture/craft/page.js",
+  "/tradition/tribe/page": "app/tradition/tribe/page.js",
   "/about-us/page": "app/about-us/page.js",
-  "/not_found/page": "app/not_found/page.js",
-  "/page": "app/page.js",
-  "/house/page": "app/house/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/playground/page": "app/playground/page.js",
-  "/test/page": "app/test/page.js",
-  "/tradition/page": "app/tradition/page.js",
-  "/geography/page": "app/geography/page.js",
-  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js"
+  "/geography/page": "app/geography/page.js"
 }

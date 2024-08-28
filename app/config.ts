@@ -25,3 +25,15 @@ export const port = process.env.PORT || 3000;
 export const host = process.env.VERCEL_URL
   ? `https://${process.env.VERCEL_URL}`
   : `http://localhost:${port}`;
+
+
+export const SITE = {
+  name: 'Identitas Orang Papua',
+
+  origin: 'https://tailnext.vercel.app',
+  basePathname: '/',
+  trailingSlash: false,
+
+  title: 'Identitas Orang Papua',
+  description: 'Mengenal Papua Lebih Dekat',
+};

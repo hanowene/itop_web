@@ -46,13 +46,13 @@ async function RootLayout({
       </Head> */}
       <body className="flex flex-col h-screen justify-between">
         {/* <Provider store={store}> */}
-          <NextIntlClientProvider messages={messages} >
-              <Suspense>
-                <Nav />
-              </Suspense>
-              {children}
-              <FooterHome></FooterHome>
-          </NextIntlClientProvider>
+        <NextIntlClientProvider messages={messages} >
+          <Suspense>
+            <Nav />
+          </Suspense>
+          {children}
+          <FooterHome></FooterHome>
+        </NextIntlClientProvider>
         {/* </Provider> */}
       </body>
     </html>

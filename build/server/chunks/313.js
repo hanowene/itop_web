@@ -1,1 +1,0 @@
-"use strict";exports.id=313,exports.ids=[313],exports.modules={83313:a=>{a.exports=JSON.parse('{"HomePage":{"title":"Hello world!"},"home":"rumah","Home":"Rumah","Culture":"Budaya","Geography":"Geografi","Language":"Bahasa","House":"Rumah","Tradition":"Adat Istiadat","About Us":"Tentang Kami"}')}};

@@ -1,1 +1,0 @@
-"use strict";exports.id=532,exports.ids=[532],exports.modules={49532:e=>{e.exports=JSON.parse('{"HomePage":{"title":"Hello world!"},"home":"tuish","Home":"Tuish","Culture":"Budaya","Geography":"Geografi","Language":"Bahasa","House":"Rumah"}')}};
