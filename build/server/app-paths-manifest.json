@@ -1,9 +1,7 @@
 {
-  "/culture/house/page": "app/culture/house/page.js",
-  "/culture/tools/page": "app/culture/tools/page.js",
-  "/culture/clothes/page": "app/culture/clothes/page.js",
   "/culture/craft/page": "app/culture/craft/page.js",
   "/tradition/tribe/page": "app/tradition/tribe/page.js",
   "/about-us/page": "app/about-us/page.js",
-  "/geography/page": "app/geography/page.js"
+  "/geography/page": "app/geography/page.js",
+  "/page": "app/page.js"
 }

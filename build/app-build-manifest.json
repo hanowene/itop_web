@@ -1,75 +1,159 @@
 {
   "pages": {
+    "/_not-found": [
+      "static/chunks/webpack-66dc06ce1ea77e7c.js",
+      "static/chunks/fd9d1056-13b3231ac364e1b7.js",
+      "static/chunks/472-dcd880779711e4ae.js",
+      "static/chunks/main-app-7be246e775bbc342.js",
+      "static/chunks/app/_not-found-2413453bcbff46e6.js"
+    ],
     "/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/layout.css",
-      "static/chunks/app/layout.js"
+      "static/chunks/webpack-66dc06ce1ea77e7c.js",
+      "static/chunks/fd9d1056-13b3231ac364e1b7.js",
+      "static/chunks/472-dcd880779711e4ae.js",
+      "static/chunks/main-app-7be246e775bbc342.js",
+      "static/chunks/813-6df67fcc1319a7ac.js",
+      "static/chunks/805-d1cf3e78ae5a5296.js",
+      "static/chunks/413-b64fd03a09f51f03.js",
+      "static/chunks/204-fd15dba79a49765d.js",
+      "static/css/c66dc90edb67f3c6.css",
+      "static/chunks/app/layout-58108d2945af03e1.js"
     ],
     "/loading": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/loading.js"
-    ],
-    "/geography/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/geography/page.js"
-    ],
-    "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
-    ],
-    "/culture/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/culture/page.js"
-    ],
-    "/tradition/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/tradition/page.js"
-    ],
-    "/culture/house/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/culture/house/page.js"
-    ],
-    "/culture/tools/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/culture/tools/page.js"
+      "static/chunks/webpack-66dc06ce1ea77e7c.js",
+      "static/chunks/fd9d1056-13b3231ac364e1b7.js",
+      "static/chunks/472-dcd880779711e4ae.js",
+      "static/chunks/main-app-7be246e775bbc342.js",
+      "static/chunks/app/loading-9c3fbcaec2ece3fc.js"
     ],
     "/culture/clothes/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/culture/clothes/page.js"
-    ],
-    "/culture/craft/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/culture/craft/page.js"
-    ],
-    "/tradition/tradition/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/tradition/tradition/page.js"
-    ],
-    "/tradition/holiday/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/tradition/holiday/page.js"
-    ],
-    "/tradition/tribe/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/tradition/tribe/page.js"
+      "static/chunks/webpack-66dc06ce1ea77e7c.js",
+      "static/chunks/fd9d1056-13b3231ac364e1b7.js",
+      "static/chunks/472-dcd880779711e4ae.js",
+      "static/chunks/main-app-7be246e775bbc342.js",
+      "static/chunks/813-6df67fcc1319a7ac.js",
+      "static/chunks/app/culture/clothes/page-cd13327c88f9cba7.js"
     ],
     "/about-us/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/about-us/page.js"
+      "static/chunks/webpack-66dc06ce1ea77e7c.js",
+      "static/chunks/fd9d1056-13b3231ac364e1b7.js",
+      "static/chunks/472-dcd880779711e4ae.js",
+      "static/chunks/main-app-7be246e775bbc342.js",
+      "static/chunks/813-6df67fcc1319a7ac.js",
+      "static/chunks/app/about-us/page-40ce9d3c21655d68.js"
+    ],
+    "/culture/house/page": [
+      "static/chunks/webpack-66dc06ce1ea77e7c.js",
+      "static/chunks/fd9d1056-13b3231ac364e1b7.js",
+      "static/chunks/472-dcd880779711e4ae.js",
+      "static/chunks/main-app-7be246e775bbc342.js",
+      "static/chunks/813-6df67fcc1319a7ac.js",
+      "static/chunks/app/culture/house/page-75025797523a34f3.js"
+    ],
+    "/culture/page": [
+      "static/chunks/webpack-66dc06ce1ea77e7c.js",
+      "static/chunks/fd9d1056-13b3231ac364e1b7.js",
+      "static/chunks/472-dcd880779711e4ae.js",
+      "static/chunks/main-app-7be246e775bbc342.js",
+      "static/chunks/813-6df67fcc1319a7ac.js",
+      "static/chunks/app/culture/page-fcfde5cd51cd2ccb.js"
+    ],
+    "/culture/tools/page": [
+      "static/chunks/webpack-66dc06ce1ea77e7c.js",
+      "static/chunks/fd9d1056-13b3231ac364e1b7.js",
+      "static/chunks/472-dcd880779711e4ae.js",
+      "static/chunks/main-app-7be246e775bbc342.js",
+      "static/chunks/813-6df67fcc1319a7ac.js",
+      "static/chunks/app/culture/tools/page-30cd2dafd026f227.js"
+    ],
+    "/geography/page": [
+      "static/chunks/webpack-66dc06ce1ea77e7c.js",
+      "static/chunks/fd9d1056-13b3231ac364e1b7.js",
+      "static/chunks/472-dcd880779711e4ae.js",
+      "static/chunks/main-app-7be246e775bbc342.js",
+      "static/chunks/813-6df67fcc1319a7ac.js",
+      "static/chunks/413-b64fd03a09f51f03.js",
+      "static/chunks/app/geography/page-fe8173cc020b8b76.js"
+    ],
+    "/house/page": [
+      "static/chunks/webpack-66dc06ce1ea77e7c.js",
+      "static/chunks/fd9d1056-13b3231ac364e1b7.js",
+      "static/chunks/472-dcd880779711e4ae.js",
+      "static/chunks/main-app-7be246e775bbc342.js",
+      "static/chunks/813-6df67fcc1319a7ac.js",
+      "static/chunks/app/house/page-1a6fa1ef8d495613.js"
+    ],
+    "/not_found/page": [
+      "static/chunks/webpack-66dc06ce1ea77e7c.js",
+      "static/chunks/fd9d1056-13b3231ac364e1b7.js",
+      "static/chunks/472-dcd880779711e4ae.js",
+      "static/chunks/main-app-7be246e775bbc342.js",
+      "static/chunks/app/not_found/page-5d0f41177b428d01.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-66dc06ce1ea77e7c.js",
+      "static/chunks/fd9d1056-13b3231ac364e1b7.js",
+      "static/chunks/472-dcd880779711e4ae.js",
+      "static/chunks/main-app-7be246e775bbc342.js",
+      "static/chunks/app/page-ec7696a1fcb16034.js"
+    ],
+    "/tradition/page": [
+      "static/chunks/webpack-66dc06ce1ea77e7c.js",
+      "static/chunks/fd9d1056-13b3231ac364e1b7.js",
+      "static/chunks/472-dcd880779711e4ae.js",
+      "static/chunks/main-app-7be246e775bbc342.js",
+      "static/chunks/813-6df67fcc1319a7ac.js",
+      "static/chunks/app/tradition/page-e5c87f0469b9223f.js"
+    ],
+    "/tradition/holiday/page": [
+      "static/chunks/webpack-66dc06ce1ea77e7c.js",
+      "static/chunks/fd9d1056-13b3231ac364e1b7.js",
+      "static/chunks/472-dcd880779711e4ae.js",
+      "static/chunks/main-app-7be246e775bbc342.js",
+      "static/chunks/813-6df67fcc1319a7ac.js",
+      "static/chunks/app/tradition/holiday/page-86a6cb2fb404dbb7.js"
+    ],
+    "/test/page": [
+      "static/chunks/webpack-66dc06ce1ea77e7c.js",
+      "static/chunks/fd9d1056-13b3231ac364e1b7.js",
+      "static/chunks/472-dcd880779711e4ae.js",
+      "static/chunks/main-app-7be246e775bbc342.js",
+      "static/chunks/805-d1cf3e78ae5a5296.js",
+      "static/chunks/912-04a9e4deec006437.js",
+      "static/chunks/app/test/page-9e60468b54f867cb.js"
+    ],
+    "/culture/craft/page": [
+      "static/chunks/webpack-66dc06ce1ea77e7c.js",
+      "static/chunks/fd9d1056-13b3231ac364e1b7.js",
+      "static/chunks/472-dcd880779711e4ae.js",
+      "static/chunks/main-app-7be246e775bbc342.js",
+      "static/chunks/813-6df67fcc1319a7ac.js",
+      "static/chunks/app/culture/craft/page-70f5794df168812d.js"
+    ],
+    "/playground/page": [
+      "static/chunks/webpack-66dc06ce1ea77e7c.js",
+      "static/chunks/fd9d1056-13b3231ac364e1b7.js",
+      "static/chunks/472-dcd880779711e4ae.js",
+      "static/chunks/main-app-7be246e775bbc342.js",
+      "static/chunks/805-d1cf3e78ae5a5296.js",
+      "static/chunks/912-04a9e4deec006437.js",
+      "static/chunks/app/playground/page-5de062bfe180f926.js"
+    ],
+    "/tradition/tradition/page": [
+      "static/chunks/webpack-66dc06ce1ea77e7c.js",
+      "static/chunks/fd9d1056-13b3231ac364e1b7.js",
+      "static/chunks/472-dcd880779711e4ae.js",
+      "static/chunks/main-app-7be246e775bbc342.js",
+      "static/chunks/813-6df67fcc1319a7ac.js",
+      "static/chunks/app/tradition/tradition/page-5b7e153d1ad5cfd5.js"
+    ],
+    "/tradition/tribe/page": [
+      "static/chunks/webpack-66dc06ce1ea77e7c.js",
+      "static/chunks/fd9d1056-13b3231ac364e1b7.js",
+      "static/chunks/472-dcd880779711e4ae.js",
+      "static/chunks/main-app-7be246e775bbc342.js",
+      "static/chunks/813-6df67fcc1319a7ac.js",
+      "static/chunks/app/tradition/tribe/page-750e962bf70e9a1e.js"
     ]
   }
 }
