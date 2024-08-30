@@ -1,7 +1,21 @@
 {
-  "/culture/craft/page": "app/culture/craft/page.js",
-  "/tradition/tribe/page": "app/tradition/tribe/page.js",
+  "/_not-found": "app/_not-found.js",
   "/about-us/page": "app/about-us/page.js",
+  "/culture/clothes/page": "app/culture/clothes/page.js",
+  "/culture/craft/page": "app/culture/craft/page.js",
+  "/culture/house/page": "app/culture/house/page.js",
   "/geography/page": "app/geography/page.js",
-  "/page": "app/page.js"
+  "/culture/tools/page": "app/culture/tools/page.js",
+  "/culture/page": "app/culture/page.js",
+  "/house/page": "app/house/page.js",
+  "/not_found/page": "app/not_found/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/tradition/holiday/page": "app/tradition/holiday/page.js",
+  "/page": "app/page.js",
+  "/test/page": "app/test/page.js",
+  "/playground/page": "app/playground/page.js",
+  "/tradition/tradition/page": "app/tradition/tradition/page.js",
+  "/tradition/tribe/page": "app/tradition/tribe/page.js",
+  "/tradition/page": "app/tradition/page.js",
+  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js"
 }
